@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import Countries from './components/Country/Countries';
+import Countries from './components/Countries/Countries';
 
 function App() {
   return (
