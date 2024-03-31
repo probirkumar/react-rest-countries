@@ -2,12 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import Countries from './components/Countries/Countries';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       {/* use component file */}
       <Countries></Countries>
+      <Footer></Footer>
 
       {/* <LoadCountries></LoadCountries> */}
     </div>
