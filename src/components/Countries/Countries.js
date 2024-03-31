@@ -15,12 +15,11 @@ const Countries = () => {
     return (
         <div>
             <h2>Countries Are Here: {Countries.length}</h2>
-            {
-                Countries.map(country => console.log(country))
-            }
-            {
-                Countries.map(country => <Country country={country}></Country>)
-            }
+            <div className='countries-container'>
+                {
+                    Countries.map(country => <Country country={country} key={country.cca3}></Country>)
+                }
+            </div>
         </div>
     );
 };
